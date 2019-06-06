@@ -8,3 +8,4 @@ Please cite the following paper if you use the code.:
 Roy, Avipsa; Nelson, Trisalyn A.; Fotheringham, A. S.; Winters, Meghan. 2019. "Correcting Bias in Crowdsourced Data to Map Bicycle Ridership of All Bicyclists." Urban Sci. 3, no. 2: 62. (https://doi.org/10.3390/urbansci3020062)
 
 
+The DOI of this code repository is: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3240560.svg)](https://doi.org/10.5281/zenodo.3240560)
