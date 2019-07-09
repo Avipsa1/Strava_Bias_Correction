@@ -35,6 +35,18 @@ VIF_features = ['edge_id','AADT',
 X = df[VIF_features]
 Y = df["MAG_Daily"]
 
+#Define plot function for AIC and BIC criterion
+def plot_ic_criterion(model,name,color):
+    alpha_ = model.alpha_
+    alphas_ = model.alphas_
+    criterion_ = model.criterion_
+    plt.plot(alphas_, criterion_, '--', color=color,
+             linewidth=3, label='%s criterion' % name)
+    plt.axvline(alpha_, color=color, linewidth=3,
+                label='alpha: %s estimate' % name)
+    plt.xlabel('alpha')
+    plt.ylabel('criterion')
+
 #Choose the optimal alpha for LASSO regression using the AIC & BIC criterion
 model_bic = LassoLarsIC(criterion='bic')
 t1 = time.time()
