@@ -1,3 +1,4 @@
+#Git exploration - 12/5/2024
 library(MASS)
 library(boot)
 mag_annual = read.csv("C:/Users/aroy29/Dropbox (ASU)/Strava Analysis/Strava_Bias_Correction/Data/MAG_Train_Data.csv")
